@@ -101,5 +101,26 @@
   },
   "pythonTests": 6,
   "windowsBuildPassed": true,
-  "windowsRuntimeTested": false
+  "windowsRuntimeTested": false,
+  "publicUi": {
+    "sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
+    "assemblySha256": "7eceaaa6f091dc32199b05701ee276caa1aa0b83aa8a038cf6ae479dc7feeeb7",
+    "platform": "Linux X11/Xwayland",
+    "checks": [
+      {
+        "check": "fresh replay full-density scan starts without developer-mode warmup",
+        "passed": true
+      },
+      {
+        "check": "fresh replay dual-station 20Hz remains alive during playback",
+        "passed": true
+      },
+      {
+        "check": "fresh replay scanner toggles off cleanly",
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "error": ""
+  }
 }

@@ -6,6 +6,8 @@
 
 首发为 `v0.1.0-alpha.1` 预发布。公开版包含**原创合成比赛与简化场地**，不是实际比赛数据；完整实现源码已公开，正式场地、车辆和赛事数据需在本地另行准备。见[已知问题](KNOWN_ISSUES.md)、[开发路线](ROADMAP.md)与[资源说明](THIRD_PARTY_NOTICES.md)。
 
+![合成比赛与双机位模拟点云，非实际赛事](docs/images/synthetic-demo-lidar.png)
+
 ## 快速使用
 
 从 [Releases](https://github.com/coach114514/2026-TCR-Replay/releases) 下载对应系统的 **demo** 压缩包，解压整个目录：
