@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Replay.unity
+    guid: b48f1c9a9e74945c2a524f1afec663b9
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

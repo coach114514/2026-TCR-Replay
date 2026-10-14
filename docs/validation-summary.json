@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-15",
+  "release": "v0.1.0-alpha.1",
+  "status": "unfinished-alpha",
+  "publicNative": {
+    "sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
+    "assemblySha256": "7eceaaa6f091dc32199b05701ee276caa1aa0b83aa8a038cf6ae479dc7feeeb7",
+    "suites": [
+      {
+        "suite": "lidar-api",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 5.63,
+        "log": "lidar-api/player.log",
+        "reports": [
+          "report.json"
+        ]
+      },
+      {
+        "suite": "replay-lidar",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 39.49,
+        "log": "replay-lidar/player.log",
+        "reports": [
+          "report.json"
+        ]
+      },
+      {
+        "suite": "replay",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 4.37,
+        "log": "replay/player.log",
+        "reports": []
+      }
+    ],
+    "passed": true
+  },
+  "localNative": {
+    "sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
+    "assemblySha256": "caf17727dc976bebda7e71efc6f4966779fd89cf6bd12ffa14ac0fa3f7efa89c",
+    "suites": [
+      {
+        "suite": "lidar-api",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 6.58,
+        "log": "lidar-api/player.log",
+        "reports": [
+          "report.json"
+        ]
+      },
+      {
+        "suite": "replay-lidar",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 40.41,
+        "log": "replay-lidar/player.log",
+        "reports": [
+          "report.json"
+        ]
+      },
+      {
+        "suite": "lidar",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 8.58,
+        "log": "lidar/player.log",
+        "reports": [
+          "report.json"
+        ]
+      }
+    ],
+    "passed": true
+  },
+  "localFullLibrary": {
+    "sha256": "8027f7d1f9ae7dacfc826fb218adcc1ae7464af098a8a59397e7531c0f7ec0bc",
+    "assemblySha256": "1331fd9cefdabb5aa330ce99f52d4f7541bba69fc88e00abbef7f4df0969bfd3",
+    "suites": [
+      {
+        "suite": "lidar-api",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 6.43,
+        "log": "lidar-api/player.log",
+        "reports": [
+          "report.json"
+        ]
+      },
+      {
+        "suite": "replay",
+        "passed": true,
+        "exitCode": 0,
+        "seconds": 145.3,
+        "log": "replay/player.log",
+        "reports": []
+      }
+    ],
+    "passed": true
+  },
+  "pythonTests": 6,
+  "windowsBuildPassed": true,
+  "windowsRuntimeTested": false
+}

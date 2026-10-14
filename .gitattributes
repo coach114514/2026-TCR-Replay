@@ -1,0 +1,8 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.shader text eol=lf
+*.ttf binary
+*.png binary
+

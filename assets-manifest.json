@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "release": "v0.1.0-alpha.1",
+  "status": "unfinished-alpha",
+  "included": [
+    {
+      "name": "original synthetic demo",
+      "source": "match_replay/tools/make_demo.py",
+      "license": "Apache-2.0",
+      "generatedLocally": true
+    },
+    {
+      "name": "Droid Sans Fallback",
+      "file": "match_replay/unity/Assets/Resources/ReplayChinese.ttf",
+      "sha256": "acb6440a713d880a13a21b468ba7cd43f5a2b2934972e51be791c880730777b8",
+      "license": "Apache-2.0",
+      "notice": "licenses/Droid-font-notice.txt"
+    },
+    {
+      "name": "original source and shaders",
+      "license": "Apache-2.0"
+    }
+  ],
+  "external": [
+    {
+      "name": "official finals CAD and rulebook images",
+      "source": "https://bbs.robomaster.com/wiki/20204847",
+      "redistribution": "not established; excluded"
+    },
+    {
+      "name": "official regional dataset and exported matches",
+      "source": "https://bbs.robomaster.com/article/1936220",
+      "redistribution": "separate upstream terms; excluded"
+    },
+    {
+      "name": "sweeper v2.1 CAD and derived meshes",
+      "source": "https://bbs.robomaster.com/article/1943679",
+      "redistribution": "upstream noncommercial restriction; excluded"
+    },
+    {
+      "name": "JiaGeng mecanum CAD and derived meshes",
+      "source": "locally supplied 2026 archive",
+      "redistribution": "not established; excluded"
+    },
+    {
+      "name": "regional PLY and map",
+      "source": "upstream radar field directory",
+      "redistribution": "not established; excluded"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "com.unity.sharp-zip-lib",
+      "version": "1.4.2",
+      "license": "Unity Companion License; embedded upstream notices",
+      "notice": "licenses/sharp-zip-lib"
+    },
+    {
+      "name": "Unity Editor/Player",
+      "version": "6000.3.25f1",
+      "license": "Unity terms; engine not relicensed"
+    }
+  ]
+}

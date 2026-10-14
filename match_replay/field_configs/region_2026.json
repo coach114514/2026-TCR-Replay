@@ -1,0 +1,198 @@
+{
+  "id": "rmuc_2026_region_candidate",
+  "name": "2026 区域赛 · 按规则核对建筑标识",
+  "width": 28.0,
+  "depth": 15.0,
+  "calibration": "provisional",
+  "meshFloorHeight": 0.62754,
+  "meshMaxDisplayHeight": 3.0,
+  "notes": "建筑名称与布局依据规则V2.0.1图4-4、4-5、4-8核对。基地和前哨站按图4-5定位尺寸投影；其他标识按图示估计位置。当前区域赛网格与全国赛规则版本不同，保留几何校准待确认标记；原始坐标不变。",
+  "rulesVersion": "V2.0.1 (20260629)",
+  "rulesFigures": "图4-4、4-5、4-8；手册第33、34、37页（PDF第34、35、38页）",
+  "coordinateConvention": "单位米；俯视图左下角为(0,0)，x向右，y向上；蓝方坐标从图4-5读取，红方按(28-x,15-y)中心对称投影。",
+  "texture": "assets/map_2026.jpg",
+  "mesh": "assets/region_mesh.json",
+  "buildings": [
+    {
+      "team": "red",
+      "role": "base",
+      "name": "红方基地",
+      "x": 2.407,
+      "y": 7.53,
+      "source": "图4-5：蓝方25593mm、7530mm定位线；中心对称"
+    },
+    {
+      "team": "blue",
+      "role": "base",
+      "name": "蓝方基地",
+      "x": 25.593,
+      "y": 7.47,
+      "source": "图4-5：25593mm、7530mm定位线；y由图上方向转换"
+    },
+    {
+      "team": "red",
+      "role": "outpost",
+      "name": "红方前哨站",
+      "x": 10.992,
+      "y": 3.643,
+      "source": "图4-4[4]、图4-5：蓝方17008mm、3643mm定位线；中心对称"
+    },
+    {
+      "team": "blue",
+      "role": "outpost",
+      "name": "蓝方前哨站",
+      "x": 17.008,
+      "y": 11.357,
+      "source": "图4-5：17008mm、3643mm定位线；y由图上方向转换"
+    }
+  ],
+  "landmarks": [
+    {
+      "team": "red",
+      "role": "fortress",
+      "name": "红方堡垒",
+      "x": 6.6,
+      "y": 7.5,
+      "source": "图4-4[7]、图4-8[6]；图示近似中心"
+    },
+    {
+      "team": "blue",
+      "role": "fortress",
+      "name": "蓝方堡垒",
+      "x": 21.4,
+      "y": 7.5,
+      "source": "中心对称；图示近似中心"
+    },
+    {
+      "team": "red",
+      "role": "helipad",
+      "name": "红方停机坪",
+      "x": 1.45,
+      "y": 13.2,
+      "source": "图4-4[9]、图4-8[1]；图示近似中心"
+    },
+    {
+      "team": "blue",
+      "role": "helipad",
+      "name": "蓝方停机坪",
+      "x": 26.55,
+      "y": 1.8,
+      "source": "中心对称；图示近似中心"
+    },
+    {
+      "team": "red",
+      "role": "dart_station",
+      "name": "红方飞镖发射站",
+      "x": 0.85,
+      "y": 10.7,
+      "source": "图4-4[10]、图4-8[3]；图示近似中心"
+    },
+    {
+      "team": "blue",
+      "role": "dart_station",
+      "name": "蓝方飞镖发射站",
+      "x": 27.15,
+      "y": 4.3,
+      "source": "中心对称；图示近似中心"
+    },
+    {
+      "team": "red",
+      "role": "supply",
+      "name": "红方补给区",
+      "x": 2.3,
+      "y": 1.8,
+      "source": "图4-4[2]、图4-8[9]；区域标识点"
+    },
+    {
+      "team": "blue",
+      "role": "supply",
+      "name": "蓝方补给区",
+      "x": 25.7,
+      "y": 13.2,
+      "source": "中心对称；区域标识点"
+    },
+    {
+      "team": "red",
+      "role": "resource_station",
+      "name": "红方资源站",
+      "x": 0.8,
+      "y": 0.85,
+      "source": "图4-4[13]、图4-8[10]；图示近似中心"
+    },
+    {
+      "team": "blue",
+      "role": "resource_station",
+      "name": "蓝方资源站",
+      "x": 27.2,
+      "y": 14.15,
+      "source": "中心对称；图示近似中心"
+    },
+    {
+      "team": "red",
+      "role": "radar_platform",
+      "name": "红方雷达基座",
+      "x": -1.2,
+      "y": 5.65,
+      "source": "图4-4[11]、图4-8[7]；场外平台近似中心"
+    },
+    {
+      "team": "blue",
+      "role": "radar_platform",
+      "name": "蓝方雷达基座",
+      "x": 29.2,
+      "y": 9.35,
+      "source": "中心对称；场外平台近似中心"
+    },
+    {
+      "team": "red",
+      "role": "trapezoid_highland",
+      "name": "红方梯形高地",
+      "x": 5.2,
+      "y": 13.1,
+      "source": "图4-4[8]；区域标识点"
+    },
+    {
+      "team": "blue",
+      "role": "trapezoid_highland",
+      "name": "蓝方梯形高地",
+      "x": 22.8,
+      "y": 1.9,
+      "source": "中心对称；区域标识点"
+    },
+    {
+      "team": "red",
+      "role": "assembly",
+      "name": "红方装配区",
+      "x": 12.8,
+      "y": 8.6,
+      "source": "图4-4[19]；区域标识点"
+    },
+    {
+      "team": "blue",
+      "role": "assembly",
+      "name": "蓝方装配区",
+      "x": 15.2,
+      "y": 6.4,
+      "source": "图4-4[6]；区域标识点"
+    },
+    {
+      "team": "neutral",
+      "role": "energy_mechanism",
+      "name": "能量机关",
+      "x": 14.0,
+      "y": 7.5,
+      "source": "图4-4[18]；机关组合近似中心"
+    },
+    {
+      "team": "neutral",
+      "role": "central_highland",
+      "name": "中央高地",
+      "x": 14.0,
+      "y": 10.0,
+      "source": "图4-4[16]；区域标识点，非几何中心"
+    }
+  ],
+  "collisionMesh": "assets/collision/regional_floor.tcrmesh",
+  "tunnels": [],
+  "collisionNotes": "独立地面层：CAD 上表面、坡面与台阶；移除全国赛洞顶，隐藏显示模型后仍保留碰撞。区域赛未包含可核对的同款洞口，不套用全国赛坐标。"
+}

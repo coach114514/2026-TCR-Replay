@@ -1,0 +1,20 @@
+2026 TCR Replay
+Copyright 2026 TCR Replay contributors
+
+Original code and original synthetic demo assets are licensed under Apache-2.0.
+This does not grant rights to the Unity Editor/Player runtime or any separately
+obtained field CAD, robot CAD, rulebook image or competition dataset.
+
+Droid Sans Fallback: Copyright 2006-2010 Google Corp.; Apache-2.0.
+See licenses/Droid-font-notice.txt and licenses/Apache-2.0.txt.
+
+The saved SolidWorks display parser cross-checks container/descriptor grammar
+against cadmpeg's docs/formats/sldprt.md, licensed CC BY 4.0. Credit: cadmpeg
+contributors, https://github.com/cadmpeg/cadmpeg. The Python implementation is
+project code; no upstream CAD files, vendor SDKs or upstream source files are
+bundled. The reference is format documentation, not a license for robot models.
+
+Unity com.unity.sharp-zip-lib 1.4.2 is resolved by Unity Package Manager, under
+the Unity Companion License, with embedded upstream notices. See licenses/
+sharp-zip-lib and THIRD_PARTY_NOTICES.md. It is not relicensed as Apache-2.0.
+

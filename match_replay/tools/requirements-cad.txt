@@ -1,0 +1,8 @@
+# Optional advanced conversion toolchain, pinned to the locally tested environment.
+# Not needed for demo generation or running a Player.
+numpy==2.5.3
+scipy==1.18.1
+vtk==9.6.2
+cadquery-ocp==7.9.3.1.1
+fast-simplification==0.2.0
+fonttools==4.66.1

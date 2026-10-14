@@ -1,0 +1,2 @@
+# Offline full-library exporter only; the Unity player does not use this package.
+pypinyin==0.55.0
