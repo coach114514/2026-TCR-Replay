@@ -10,4 +10,4 @@ fi
 if command -v nvidia-smi >/dev/null 2>&1 && nvidia-smi -L >/dev/null 2>&1; then
   export __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only
 fi
-exec "$binary" -screen-fullscreen 0 -screen-width 1600 -screen-height 900 "$@"
+exec "$binary" -screen-fullscreen 0 -screen-width 1600 -screen-height 900 -force-glcore "$@"
